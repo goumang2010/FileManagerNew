@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
 using Microsoft.Office.Interop.Word;
+using GoumangToolKit;
 namespace FileManagerNew
 {
 

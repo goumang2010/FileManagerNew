@@ -74,7 +74,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fileLists.cs" />
     <Compile Include="History.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +169,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="www.ico.la_1_128X128_1385443374.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\GoumangToolKit\goumangToolKit\GoumangToolKit.csproj">
+      <Project>{41f56599-8d65-48b1-ac56-99e8d146bc2d}</Project>
+      <Name>GoumangToolKit</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
